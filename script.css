@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    background-color: rgb(43, 175, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+}
+
+
+#inputText{
+height: 20px;
+width: 600px;
+border-radius: 10px;
+
+}
+.text-area {
+    margin: 10px 0;
+    height: 20px;
+    width: calc(50% - 110px); /* Ajusta a largura para deixar espaço para o botão */
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.button-area {
+    margin-right: 20px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.copied {
+    background-color: yellow;
+    color:red
+    
+}

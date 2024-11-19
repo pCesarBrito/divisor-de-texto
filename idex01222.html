@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Divisor de Texto</title>
+    <style>
+        body{
+            margin: 0%;
+            background-color: rgb(43, 175, 43);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            
+        }
+
+      
+      #inputText{
+      height: 20px;
+      width: 600px;
+      border-radius: 10px;
+
+        }
+        .text-area {
+            margin: 10px 0;
+            height: 20px;
+            width: calc(50% - 110px); /* Ajusta a largura para deixar espaço para o botão */
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .button-area {
+            margin-right: 20px;
+            width: 100px;
+            color: white;
+            border-radius: 10px;
+            background-color: blueviolet;
+        }
+        .block {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .copied {
+            background-color: yellow;
+            color:red
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+   
+    <h1>Divisor de Texto</h1>
+    <label for="wordCount">Número de palavras por bloco:</label><br>
+    <input type="number" value="500" id="wordCount" placeholder="Digite o número de palavras">
+    <br><br>
+    <textarea id="inputText" placeholder="Cole seu texto aqui"></textarea>
+    <br><br>
+    <button id="divideText">Iniciar Sub-divisão do Texto</button>
+    <div id="output"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
