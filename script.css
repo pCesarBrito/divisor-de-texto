@@ -39,5 +39,6 @@ border-radius: 10px;
 }
 #output{
     display: flex;
+    flex-direction: column;
     text-align: center;
 }
