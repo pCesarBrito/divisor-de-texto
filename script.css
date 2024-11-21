@@ -6,7 +6,6 @@ body{
     color: white    ;
     
 }
-
 #inputText{
 height: 20px;
 width: 600px;
@@ -37,4 +36,8 @@ border-radius: 10px;
     background-color: yellow;
     color:red
     
+}
+#output{
+    display: flex;
+    text-align: center;
 }
