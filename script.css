@@ -2,30 +2,36 @@ body{
     margin: 0%;
     background-color: rgba(3, 3, 3, 0.979);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:x-large;
-    color: white    ;
+    font-size:18PX;
+    color: white ;
+    
     
 }
 #inputText{
-height: 20px;
+height: 75px;
 width: 600px;
-border-radius: 10px;
+border-radius: 5%;
+background-color: yellow;
 
 }
 .text-area {
     margin: 10px 0;
     height: 20px;
-    width: calc(50% - 110px); /* Ajusta a largura para deixar espaço para o botão */
-    color: white;
-    background-color: black;
-    border-radius: 10px;
+    width: calc(40% - 110px); /* Ajusta a largura para deixar espaço para o botão */
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
 }
 .button-area {
     margin-right: 20px;
-    width: 100px;
-    color: white;
+    width: 150px;
+    height:auto;
+    color:yellow;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color:red;
+    cursor: pointer;
+    padding: 5px;
+    border-style:dotted;
 }
 .block {
     display: flex;
@@ -33,12 +39,24 @@ border-radius: 10px;
     margin-bottom: 10px;
 }
 .copied {
-    background-color: yellow;
-    color:red
+    background-color:white;
+    color:black
     
 }
 #output{
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    align-content: center;
+    cursor: pointer;
+}
+#charCount{
+    width: 70px;
+    background-color: yellow;
+}
+#divideText{
+    font-size:medium;
+    color:yellow;
+    background-color: red;
+    border-radius:5px;
+    cursor: pointer;
 }
